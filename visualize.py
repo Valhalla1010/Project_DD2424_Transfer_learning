@@ -1,30 +1,45 @@
+import matplotlib
+matplotlib.use("TkAgg")
+
 import matplotlib.pyplot as plt
 import numpy as np
 import torchvision
+from torch.utils.data import DataLoader
+from BinaryClass import Transforms, BinaryPetDataset
 
-
-def imshow(inp, title=None):
-    #Show tensor image after denormalization.
-    inp = inp.numpy().transpose((1, 2, 0))
+def imshow(img, title=None):
+    img = img.numpy().transpose((1, 2, 0))
     mean = np.array([0.485, 0.456, 0.406])
     std = np.array([0.229, 0.224, 0.225])
-    inp = std * inp + mean
-    inp = np.clip(inp, 0, 1)
-    plt.imshow(inp)
+    img = std * img + mean
+    img = np.clip(img, 0, 1)
+    plt.figure(figsize=(8, 4))
+    plt.imshow(img)
+    plt.axis("off")
     if title is not None:
         plt.title(title)
-    plt.axis("off")
-    plt.show()
+    plt.show(block=True)
+
 
 def visualize_batch(dataloader):
-    # get one batch
     images, labels = next(iter(dataloader))
-    # make grid
-    grid = torchvision.utils.make_grid(images[:5])  # show first 16 images
-    # convert labels to text
-    title = [("cat" if x == 0 else "dog") for x in labels[:5]]
-    imshow(grid, title=" | ".join(title))
+    images = images.cpu()
+    labels = labels.cpu()
+    grid = torchvision.utils.make_grid(images[:8], nrow=4)
+    title = " | ".join(
+        ["cat" if int(x.item()) == 0 else "dog" for x in labels[:8]]
+    )
+    imshow(grid, title)
 
-# NAG optimizer
-    #optimizer = optim.SGD(model.fc.parameters(), lr= 0.001, momentum=0.9, nesterov=True)
 
+def main():
+    root = "Datasets"
+    train_trasform, test_transform = Transforms()
+    # load data
+    dataset = BinaryPetDataset(root,  "trainval.txt", train_trasform)
+    loader = DataLoader(dataset, batch_size=8)
+    visualize_batch(loader)
+
+
+if __name__ == "__main__":
+    main()
