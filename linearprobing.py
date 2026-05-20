@@ -1,3 +1,14 @@
+# David Marzban
+# DD2424
+# Deep Learning in Data Science
+# 2026-05-17
+""" solve the multi-class classification 
+    problem of recognising the breed of cat
+    or dog. In this case you have to replace 
+    the final layer to have 37 outputs. 
+"""
+
+
 import os
 import torch
 import torch.nn as nn 
@@ -156,7 +167,7 @@ def main():
     lr = 0.001
     optimizer = optim.Adam(model.fc.parameters(), lr)
 
-    n_epochs = 10
+    n_epochs = 15
     train(model, train_load, valid_load, optimizer, criterion, n_epochs)
 
     model.load_state_dict(torch.load("best_linear_model.pth"))

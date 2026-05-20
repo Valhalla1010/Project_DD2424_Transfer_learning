@@ -1,3 +1,14 @@
+# David Marzban
+# DD2424
+# Deep Learning in Data Science
+# 2026-05-16
+""" check replace the final layer of 
+    the pre-trained ConvNet to solve the
+    binary classification problem 
+    of recognising pictures of Dog Vs Cat
+"""
+
+
 import os
 import torch
 import torch.nn as nn 
@@ -78,8 +89,8 @@ def getModel():
         param.requires_grad = False
 
     # unfreeze
-    for param in model.layer4.parameters():
-        param.requires_grad = True
+    #for param in model.layer4.parameters():
+        #param.requires_grad = True
     # replace final classifier
     n_features = model.fc.in_features
     model.fc = nn.Linear(n_features, 2)
@@ -161,9 +172,9 @@ def main():
     model = getModel()
     criterion = nn.CrossEntropyLoss()
     lr = 0.001
-    optimizer = optim.Adam(list(model.fc.parameters()) + list(model.layer4.parameters()), lr)
+    optimizer = optim.Adam(model.fc.parameters(), lr)
     
-    n_epochs = 10
+    n_epochs = 15
 
     train(model, train_load, valid_load, optimizer, criterion, n_epochs)
     model.load_state_dict(torch.load("best_model.pth"))
