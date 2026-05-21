@@ -12,6 +12,7 @@ torch.manual_seed(42)
 random.seed(42)
 device = torch.device("cpu")
 
+# Finetuning w/ 100%, 10%, 1% of the data
 
 # random sampling w/ at least 1 sample kept per class
 def stratifiedSubset(dataset, fraction):
