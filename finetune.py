@@ -12,6 +12,9 @@ device = torch.device("cpu")
 
 backbone_layers = ["layer1", "layer2", "layer3", "layer4"]
 
+# Train 4 times, each time unfreezing another layer 
+#   - Checks how # layers affect classification accuracy
+
 def getModel(l):
     model = resnet18(weights=ResNet18_Weights.DEFAULT)
     for param in model.parameters():
@@ -26,7 +29,7 @@ def getModel(l):
     n_features = model.fc.in_features
     model.fc = nn.Linear(n_features, 37)
     model = model.to(device)
-    
+
     return model
 
 
