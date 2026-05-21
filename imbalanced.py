@@ -15,6 +15,7 @@ torch.manual_seed(42)
 random.seed(42)
 device = torch.device("cpu")
 
+# Cat breed images --> 20%, to show real life imbalances
 
 def Transforms():
     Train_transform = transforms.Compose([
