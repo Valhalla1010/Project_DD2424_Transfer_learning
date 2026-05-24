@@ -86,14 +86,15 @@ def getModel():
     model = resnet18(weights = ResNet18_Weights.DEFAULT)
     # freeze all pre-trained 
     for param in model.parameters():
-        param.requires_grad = False
+       param.requires_grad = False
 
-    # unfreeze
-    #for param in model.layer4.parameters():
-        #param.requires_grad = True
-    # replace final classifier
+    # unfreeze- fine-tune last ResNet block for (99%) test accuracy
+    for param in model.layer4.parameters():
+       param.requires_grad = True
+
+    # replace final layer
     n_features = model.fc.in_features
-    model.fc = nn.Linear(n_features, 2)
+    model.fc =  nn.Linear(n_features, 2)
     
     model = model.to(device)
     return model
@@ -171,9 +172,12 @@ def main():
 
     model = getModel()
     criterion = nn.CrossEntropyLoss()
-    lr = 0.001
-    optimizer = optim.Adam(model.fc.parameters(), lr)
-    
+    #lr = 0.001
+    #optimizer = optim.Adam(model.fc.parameters(), lr)
+    optimizer = optim.Adam([
+        {"params": model.layer4.parameters(), "lr": 0.0001},
+        {"params": model.fc.parameters(), "lr": 0.001}
+    ])
     n_epochs = 15
 
     train(model, train_load, valid_load, optimizer, criterion, n_epochs)
