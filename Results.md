@@ -7,87 +7,56 @@
 
 
 Epoch \[1/10]
-
 Train Loss = 0.2668
-
 Train Accuracy = 90.08%
-
 Valid Accuracy = 97.42%
 
 Epoch \[2/10]
-
 Train Loss = 0.1134
-
 Train Accuracy = 96.43%
-
 Valid Accuracy = 98.10%
 
 Epoch \[3/10]
-
 Train Loss = 0.0861
-
 Train Accuracy = 97.18%
-
 Valid Accuracy = 97.15%
 
 Epoch \[4/10]
-
 Train Loss = 0.0664
-
 Train Accuracy = 97.86%
-
 Valid Accuracy = 98.64%
 
 Epoch \[5/10]
-
 Train Loss = 0.0713
-
 Train Accuracy = 97.62%
-
 Valid Accuracy = 97.83%
 
 Epoch \[6/10]
-
 Train Loss = 0.0541
-
 Train Accuracy = 98.13%
-
 Valid Accuracy = 98.10%
 
 Epoch \[7/10]
-
 Train Loss = 0.0643
-
 Train Accuracy = 97.59%
-
 Valid Accuracy = 98.23%
 
 Epoch \[8/10]
-
 Train Loss = 0.0558
-
 Train Accuracy = 98.13%
-
 Valid Accuracy = 98.10%
 
 Epoch \[9/10]
-
 Train Loss = 0.0517
-
 Train Accuracy = 98.27%
-
 Valid Accuracy = 97.55%
 
 Epoch \[10/10]
-
 Train Loss = 0.0598
-
 Train Accuracy = 97.86%
-
 Valid Accuracy = 98.23%
 
 Training complete in 36m 49s  :-)
-
 Best Validation Accuracy= 98.64%
 
 Test Accuracy = 98.20%
@@ -99,87 +68,56 @@ Test Accuracy = 98.20%
 
 
 Epoch \[1/10]
-
 Train Loss = 0.2872
-
 Train Accuracy = 90.35%
-
 Valid Accuracy = 97.83%
 
 Epoch \[2/10]
-
 Train Loss = 0.0843
-
 Train Accuracy = 97.08%
-
 Valid Accuracy = 98.10%
 
 Epoch \[3/10]
-
 Train Loss = 0.0643
-
 Train Accuracy = 97.76%
-
 Valid Accuracy = 97.15%
 
 Epoch \[4/10]
-
 Train Loss = 0.0470
-
 Train Accuracy = 98.44%
-
 Valid Accuracy = 97.83%
 
 Epoch \[5/10]
-
 Train Loss = 0.0930
-
 Train Accuracy = 96.81%
-
 Valid Accuracy = 97.69%
 
 Epoch \[6/10]
-
 Train Loss = 0.0640
-
 Train Accuracy = 97.72%
-
 Valid Accuracy = 97.69%
 
 Epoch \[7/10]
-
 Train Loss = 0.2149
-
 Train Accuracy = 95.31%
-
 Valid Accuracy = 96.74%
 
 Epoch \[8/10]
-
 Train Loss = 0.0591
-
 Train Accuracy = 98.10%
-
 Valid Accuracy = 98.10%
 
 Epoch \[9/10]
-
 Train Loss = 0.0543
-
 Train Accuracy = 98.27%
-
 Valid Accuracy = 97.55%
 
 Epoch \[10/10]
-
 Train Loss = 0.1294
-
 Train Accuracy = 96.54%
-
 Valid Accuracy = 97.83%
 
 Training complete in 36m 34s  :-) 
-
 Best Validation Accuracy= 98.10%
 
 Test Accuracy = 98.39%
@@ -195,87 +133,56 @@ Test Accuracy = 98.39%
 Using cpu device
 
 Epoch \[1/10]
-
 Train Loss = 2.3499
-
 Train Accuracy = 90.22%
-
 Valid Accuracy = 98.10%
 
 Epoch \[2/10]
-
 Train Loss = 0.5328
-
 Train Accuracy = 96.71%
-
 Valid Accuracy = 97.69%
 
 Epoch \[3/10]
-
 Train Loss = 0.3252
-
 Train Accuracy = 97.15%
-
 Valid Accuracy = 97.55%
 
 Epoch \[4/10]
-
 Train Loss = 0.4235
-
 Train Accuracy = 97.38%
-
 Valid Accuracy = 97.01%
 
 Epoch \[5/10]
-
 Train Loss = 0.6396
-
 Train Accuracy = 96.47%
-
 Valid Accuracy = 97.96%
 
 Epoch \[6/10]
-
 Train Loss = 0.5363
-
 Train Accuracy = 97.08%
-
 Valid Accuracy = 98.37%
 
 Epoch \[7/10]
-
 Train Loss = 2.0028
-
 Train Accuracy = 94.16%
-
 Valid Accuracy = 93.75%
 
 Epoch \[8/10]
-
 Train Loss = 0.5624
-
 Train Accuracy = 97.52%
-
 Valid Accuracy = 98.10%
 
 Epoch \[9/10]
-
 Train Loss = 0.4047
-
 Train Accuracy = 98.17%
-
 Valid Accuracy = 97.15%
 
 Epoch \[10/10]
-
 Train Loss = 0.9711
-
 Train Accuracy = 96.81%
-
 Valid Accuracy = 97.42%
 
 Training complete in 37m 4s  :-) 
-
 Best Validation Accuracy= 98.37%
 
 Test Accuracy = 98.42%
@@ -289,87 +196,56 @@ Test Accuracy = 98.42%
 Using cpu device
 
 Epoch \[1/10]
-
 Train Loss = 0.1251
-
 Train Accuracy = 94.63%
-
 Valid Accuracy = 98.23%
 
 Epoch \[2/10]
-
 Train Loss = 0.0362
-
 Train Accuracy = 98.44%
-
 Valid Accuracy = 98.51%
 
 Epoch \[3/10]
-
 Train Loss = 0.0346
-
 Train Accuracy = 98.91%
-
 Valid Accuracy = 98.91%
 
 Epoch \[4/10]
-
 Train Loss = 0.0156
-
 Train Accuracy = 99.49%
-
 Valid Accuracy = 98.37%
 
 Epoch \[5/10]
-
 Train Loss = 0.0166
-
 Train Accuracy = 99.46%
-
 Valid Accuracy = 98.51%
 
 Epoch \[6/10]
-
 Train Loss = 0.0069
-
 Train Accuracy = 99.80%
-
 Valid Accuracy = 99.18%
 
 Epoch \[7/10]
-
 Train Loss = 0.0278
-
 Train Accuracy = 98.95%
-
 Valid Accuracy = 99.32%
 
 Epoch \[8/10]
-
 Train Loss = 0.0086
-
 Train Accuracy = 99.80%
-
 Valid Accuracy = 97.42%
 
 Epoch \[9/10]
-
 Train Loss = 0.0086
-
 Train Accuracy = 99.76%
-
 Valid Accuracy = 97.55%
 
 Epoch \[10/10]
-
 Train Loss = 0.0132
-
 Train Accuracy = 99.52%
-
 Valid Accuracy = 98.37%
 
 Training complete in 49m 46s  :-) 
-
 Best Validation Accuracy= 99.32%
 
 Test Accuracy = 98.5%
@@ -381,87 +257,56 @@ Test Accuracy = 98.5%
 
 
 Epoch \[1/10]
-
 Train Loss = 0.1112
-
 Train Accuracy = 95.14%
-
 Valid Accuracy = 98.37%
 
 Epoch \[2/10]
-
 Train Loss = 0.0192
-
 Train Accuracy = 99.49%
-
 Valid Accuracy = 98.23%
 
 Epoch \[3/10]
-
 Train Loss = 0.0138
-
 Train Accuracy = 99.59%
-
 Valid Accuracy = 99.59%
 
 Epoch \[4/10]
-
 Train Loss = 0.0051
-
 Train Accuracy = 99.93%
-
 Valid Accuracy = 99.05%
 
 Epoch \[5/10]
-
 Train Loss = 0.0098
-
 Train Accuracy = 99.66%
-
 Valid Accuracy = 99.05%
 
 Epoch \[6/10]
-
 Train Loss = 0.0074
-
 Train Accuracy = 99.76%
-
 Valid Accuracy = 99.18%
 
 Epoch \[7/10]
-
 Train Loss = 0.0105
-
 Train Accuracy = 99.69%
-
 Valid Accuracy = 99.32%
 
 Epoch \[8/10]
-
 Train Loss = 0.0039
-
 Train Accuracy = 99.86%
-
 Valid Accuracy = 98.78%
 
 Epoch \[9/10]
-
 Train Loss = 0.0035
-
 Train Accuracy = 99.93%
-
 Valid Accuracy = 99.32%
 
 Epoch \[10/10]
-
 Train Loss = 0.0085
-
 Train Accuracy = 99.63%
-
 Valid Accuracy = 99.46%
 
 Training complete in 46m 0s  :-) 
-
 Best Validation Accuracy= 99.59%
 
 Test Accuracy = 99.18%
@@ -475,45 +320,54 @@ Epoch [1/10]
 Train Loss = 2.1132
 Train Accuracy = 53.46%
 Valid Accuracy = 77.17%
+
 Epoch [2/10]
 Train Loss = 0.8445
 Train Accuracy = 83.12%
 Valid Accuracy = 81.93%
+
 Epoch [3/10]
 Train Loss = 0.5728
 Train Accuracy = 88.55%
 Valid Accuracy = 85.73%
+
 Epoch [4/10]
 Train Loss = 0.4434
 Train Accuracy = 90.05%
 Valid Accuracy = 86.96%
+
 Epoch [5/10]
 Train Loss = 0.3747
 Train Accuracy = 91.47%
 Valid Accuracy = 86.68%
+
 Epoch [6/10]
 Train Loss = 0.3243
 Train Accuracy = 93.00%
 Valid Accuracy = 87.36%
+
 Epoch [7/10]
 Train Loss = 0.2750
 Train Accuracy = 93.82%
 Valid Accuracy = 87.09%
+
 Epoch [8/10]
 Train Loss = 0.2525
 Train Accuracy = 94.74%
 Valid Accuracy = 88.32%
+
 Epoch [9/10]
 Train Loss = 0.2336
 Train Accuracy = 94.84%
 Valid Accuracy = 88.59%
+
 Epoch [10/10]
 Train Loss = 0.2196
 Train Accuracy = 95.41%
 Valid Accuracy = 89.13%
+
 Training complete in 39m 3s  :-) 
 Best Validation Accuracy= 89.13%
-
 Test Accuracy = 87.74%
 
 
