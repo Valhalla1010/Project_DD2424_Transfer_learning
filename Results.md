@@ -467,7 +467,54 @@ Best Validation Accuracy= 99.59%
 Test Accuracy = 99.18%
 
 
+# **Linear Probing** 
 
+
+Using cpu device
+Epoch [1/10]
+Train Loss = 2.1132
+Train Accuracy = 53.46%
+Valid Accuracy = 77.17%
+Epoch [2/10]
+Train Loss = 0.8445
+Train Accuracy = 83.12%
+Valid Accuracy = 81.93%
+Epoch [3/10]
+Train Loss = 0.5728
+Train Accuracy = 88.55%
+Valid Accuracy = 85.73%
+Epoch [4/10]
+Train Loss = 0.4434
+Train Accuracy = 90.05%
+Valid Accuracy = 86.96%
+Epoch [5/10]
+Train Loss = 0.3747
+Train Accuracy = 91.47%
+Valid Accuracy = 86.68%
+Epoch [6/10]
+Train Loss = 0.3243
+Train Accuracy = 93.00%
+Valid Accuracy = 87.36%
+Epoch [7/10]
+Train Loss = 0.2750
+Train Accuracy = 93.82%
+Valid Accuracy = 87.09%
+Epoch [8/10]
+Train Loss = 0.2525
+Train Accuracy = 94.74%
+Valid Accuracy = 88.32%
+Epoch [9/10]
+Train Loss = 0.2336
+Train Accuracy = 94.84%
+Valid Accuracy = 88.59%
+Epoch [10/10]
+Train Loss = 0.2196
+Train Accuracy = 95.41%
+Valid Accuracy = 89.13%
+Training complete in 39m 3s  :-) 
+Best Validation Accuracy= 89.13%
+
+Test Accuracy = 87.74%
 
 
 
